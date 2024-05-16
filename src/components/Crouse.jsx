@@ -37,7 +37,7 @@ export default function Crouse() {
 
   return (
     <div className="flex justify-center items-center ">
-      <Carousel className="rounded-xl w-[40vmax] bg-pink-300" >
+      <Carousel className="rounded-xl w-[40vmax] bg-pink-300"  autoplay="true" loop>
       {/* autoplay="true" loop */}
         {carData.map((data, index) => (
           <div key={index} className="flex justify-center p-5  ">
